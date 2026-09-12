@@ -78,11 +78,14 @@ The [Even Realities G2](https://www.evenrealities.com) are everyday display smar
 - [Glyph](https://github.com/gabrielevierti/glyph) - Graphics and UI framework for G2 apps that renders a full framebuffer and sends only the changed tiles.
 - [evenhub-dev-harness](https://github.com/oneticket99/even_hub_dev_simulator) - Browser development harness for Even Hub widgets with mocked GPS, IMU, camera, and album inputs the official simulator lacks.
 - [ehup](https://github.com/takashicompany/even-hub-uploader) - Command-line tool that drives the Even Hub developer portal to upload builds, manage beta testers, and change release state.
-- [EvenMic](https://github.com/pangoleen/EvenMic) - macOS tool that decodes the G2 microphone stream into a system-wide virtual microphone.
+- EvenMic - macOS tool that decodes the G2 microphone stream into a system-wide virtual microphone.
 - [even-demo-kit](https://github.com/fuschini/even-demo-kit) - Turns G2 simulator recordings into demo videos with a transparent background, so the UI looks like it runs on real glasses.
 - [EvenG2 Game Engine Debug Bridge](https://github.com/TakaakiIchijo/EvenG2_GameEngineDebugBridge) - Sends Unity and Godot debug logs over the local network to the G2 for on-device viewing while you develop.
 - [Everything Even Hub for Codex](https://github.com/ahui3c/everything-evenhub-codex) - The 13 official Even Hub developer skills repackaged for installation in Codex.
 - [EvenHub Grok Bot](https://github.com/zichenzhang04/even-grokbot-avatars) - Animation demo running three synchronized line-art avatars on the G2, showing the bitmap-transfer and luminance-0 transparency pattern.
+- [Mentra-Bluetooth-SDK-Starter-Kit](https://github.com/Mentra-Community/Mentra-Bluetooth-SDK-Starter-Kit) - Apache-2.0 native BLE SDK starter kit for connecting an Android, iOS, or React Native app to smart glasses, including the G2, powered by MentraOS.
+- [mentra-bluetooth-sdk-ios](https://github.com/Mentra-Community/mentra-bluetooth-sdk-ios) - Swift Package Manager distribution of the Mentra Bluetooth SDK for iOS.
+- [even-realities-app-template](https://github.com/r4stl1n/even-realities-app-template) - MIT-licensed native SwiftUI baseline app for the G2 and R1 ring, with direct BLE, LC3 audio, microphone capture, and on-device speech-to-text.
 
 ## Protocol and Reverse Engineering
 
@@ -99,6 +102,8 @@ The [Even Realities G2](https://www.evenrealities.com) are everyday display smar
 - [Even Realities WebFlasher](https://github.com/AM-Guru/evenRealities-webflasher) - Browser tool that analyses, backs up, and recovers the G2 case and glasses, and flashes signed firmware to the R1 ring over Web Serial and WebUSB.
 - [OpenG2 Companion](https://github.com/mmirman/open-g2-companion) - Local-first iOS companion app with a clean-room Bluetooth control layer for the G2.
 - [g2-thai](https://github.com/rayriffy/even-g2-thai) - Patches G2 firmware with a Thai bitmap font so the glasses render Thai text, with documented checksum verification and a rebase playbook.
+- [g2fast](https://github.com/jimrandomh/g2fast) - Unofficial firmware mod for the G2 that fixes its slow image handling.
+- [damage-wm](https://github.com/expectbugs/damage-wm) - From-scratch window manager and compositor for the G2 on custom firmware, batching per-frame screen damage into a single BLE message, with a measured latency curve replacing the modeled numbers.
 
 ## Apps - Productivity and Utilities
 
